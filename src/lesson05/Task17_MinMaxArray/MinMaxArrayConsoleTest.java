@@ -1,4 +1,4 @@
-package lesson5.Task17_MinMaxArray;
+package lesson05.Task17_MinMaxArray;
 
 import java.util.Arrays;
 import java.util.Random;
