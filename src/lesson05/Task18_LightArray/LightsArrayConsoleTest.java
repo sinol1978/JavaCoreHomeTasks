@@ -44,11 +44,10 @@ public class LightsArrayConsoleTest {
                         System.out.println("Incorrect choice");
                 }
             }
-
         }
     }
 
-    public static void setLightsRunning(int[] array) {
+    private static void setLightsRunning(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.arraycopy(array, 0 + i, array, 1 + i, array.length - 1 - i);
             getLightsState(array);
