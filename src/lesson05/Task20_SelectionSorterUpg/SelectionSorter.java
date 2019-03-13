@@ -21,7 +21,6 @@ public class SelectionSorter {
             }
             array[pos] = array[i];
             array[i] = min;    // меняем местами наименьший с array[i]
-            System.out.println(i);
         }
     }
 
