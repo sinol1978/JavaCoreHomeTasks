@@ -33,7 +33,10 @@ public class LightsArrayConsoleTest {
                         }
                         break;
                     case "3":
-                        //setLightsRunning(light);
+                        setLightsRunning(lights);
+                        break;
+                    case "4":
+                        isTheFirstLightOn(lights, 3);
                         break;
                     case "0":
                         break start;
@@ -45,10 +48,18 @@ public class LightsArrayConsoleTest {
         }
     }
 
+    public static void setLightsRunning(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.arraycopy(array, 0 + i, array, 1 + i, array.length - 1 - i);
+            getLightsState(array);
+        }
+    }
+
     private static void getLightsState(int[] array) {
         for (int i : array) {
             System.out.print(i);
         }
+        System.out.println();
     }
 
     private static void setLightsFlashing(int[] array) {
@@ -61,5 +72,13 @@ public class LightsArrayConsoleTest {
             System.out.print(i);
         }
         System.out.println();
+    }
+
+    private static void isTheFirstLightOn(int[] array, int a) {
+        if (array[a - 1] != 0) {
+            System.out.println("The light " + a + " is on");
+        } else {
+            System.out.println("The light " + a + " is off");
+        }
     }
 }
