@@ -17,6 +17,5 @@ public class Main {
         r.returnBook(2);
 
         r.returnBook(books);
-
     }
 }

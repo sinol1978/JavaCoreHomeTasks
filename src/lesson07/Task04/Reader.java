@@ -51,6 +51,4 @@ public class Reader {
             System.out.println("\t" + (++i) + "." + book.getName());
         }
     }
-
-
 }
