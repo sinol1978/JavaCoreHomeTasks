@@ -8,11 +8,15 @@ package lesson07.Task05;
  */
 
 public class AscDescNumbers {
-    static boolean f(int a, int b) {
+    static void f(int a, int b) {
         if (a != b) {
-            System.out.println(a + " " + f((a + (a < b ? 1 : -1)), b));
+            System.out.println(a);
+            if (a < b) {
+                f(a + 1, b);
+            } else {
+                f(a - 1, b);
+            }
         }
-        return true;
     }
 
     public static void main(String[] args) {
