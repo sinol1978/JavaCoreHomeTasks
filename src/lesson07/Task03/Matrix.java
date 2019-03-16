@@ -19,13 +19,29 @@ public class Matrix {
     private int rows;
     private int columns;
 
+    public int getRows() {
+        return rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public int getColumns() {
+        return columns;
+    }
+
+    public void setColumns(int columns) {
+        this.columns = columns;
+    }
+
     public Matrix() {
 
     }
 
     public Matrix(int rows, int columns) {
-        this.rows = rows;
-        this.columns = columns;
+        setRows(rows);
+        setColumns(columns);
         array = new double[rows][columns];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
@@ -66,4 +82,18 @@ public class Matrix {
         return result;
     }
 
+    public Matrix multMatrix(Matrix matrix) {
+        if (this.rows == matrix.rows && this.columns == matrix.columns) {
+            Matrix result = new Matrix(this.rows, this.columns);
+            for (int i = 0; i < this.rows; i++) {
+                for (int j = 0; j < matrix.columns; j++) {
+                    for (int k = 0; k < this.columns; k++) {
+                        result.array[i][j] += this.array[i][k] * matrix.array[k][j];
+                    }
+                }
+            }
+            return result;
+        }
+        return new Matrix(0, 0);
+    }
 }
