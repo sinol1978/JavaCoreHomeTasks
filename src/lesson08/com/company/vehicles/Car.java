@@ -87,6 +87,5 @@ public class Car {
         System.out.println("Weight: " + getCarWeight());
         this.engine.printInfo();
         this.driver.printInfo();
-
     }
 }

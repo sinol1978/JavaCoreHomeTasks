@@ -19,7 +19,6 @@ public class Sunflower extends Flower {
 
     @Override
     protected void printFlowerInfo() {
-        System.out.println("***** Sunflower *****");
-        System.out.println("Price: " + this.getPrice() + "\tTerm: " + this.getTerm() + "\tRegion: " + this.getRegionInfo());
+        System.out.println("Sunflower\tPrice: " + this.getPrice() + "\tTerm: " + this.getTerm() + "\tRegion: " + this.getRegionInfo());
     }
 }

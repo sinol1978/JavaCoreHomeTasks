@@ -18,7 +18,6 @@ public class Rose extends Flower {
 
     @Override
     protected void printFlowerInfo() {
-        System.out.println("***** Rose *****");
-        System.out.println("Price: " + this.getPrice() + "\tTerm: " + this.getTerm() + "\tRegion: " + this.getRegionInfo());
+        System.out.println("Rose\t\t\tPrice: " + this.getPrice() + "\tTerm: " + this.getTerm() + "\tRegion: " + this.getRegionInfo());
     }
 }
