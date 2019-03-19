@@ -20,7 +20,10 @@ public class Main {
         Order order2 = new Order(new Flower[]{tulip1, sf2, tulip2, rose3, tulip3, sf1});
         order2.printOrder();
 
-        System.out.println("\n\nSold flowers:");
+        Order order3 = new Order(new Flower[]{rose1, tulip1, sf2, rose2, tulip2, rose3, tulip3, sf1, rose4, tulip1});
+        order2.printOrder();
+
+        System.out.println("\nSold flowers:");
         System.out.println("Roses: " + Rose.getRoseCount() + " pcs.");
         System.out.println("Tulips: " + Tulip.getTulipCount() + " pcs.");
         System.out.println("Sunflowers: " + Sunflower.getSunflowerCount() + " pcs.");
