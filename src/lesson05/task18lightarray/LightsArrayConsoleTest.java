@@ -1,4 +1,4 @@
-package lesson05.Task18_LightArray;
+package lesson05.task18lightarray;
 
 import java.util.Scanner;
 

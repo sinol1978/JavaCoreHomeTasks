@@ -1,4 +1,4 @@
-package lesson04.Task4_DoubleParse;
+package lesson04.task04doubleparse;
 
 import lesson07.Task03.Matrix;
 

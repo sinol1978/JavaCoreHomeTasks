@@ -1,4 +1,4 @@
-package lesson04.Task1_EvenOrOdd;
+package lesson04.task01evenorodd;
 
 import java.util.Scanner;
 

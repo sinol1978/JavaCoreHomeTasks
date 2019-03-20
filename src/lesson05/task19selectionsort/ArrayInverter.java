@@ -1,4 +1,4 @@
-package lesson05.Task19_SelectionSort;
+package lesson05.task19selectionsort;
 
 public class ArrayInverter {
     public static void invert(int[] array) {

@@ -1,4 +1,4 @@
-package lesson04.Task4_DoubleParse;
+package lesson04.task04doubleparse;
 
 /**
  * Вычислить среднее значение трех вещественных чисел передаваемых на вход программы в качестве аргументов.

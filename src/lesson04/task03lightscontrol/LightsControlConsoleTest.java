@@ -1,4 +1,4 @@
-package lesson04.Task3_LightsControl;
+package lesson04.task03lightscontrol;
 
 import java.math.BigInteger;
 

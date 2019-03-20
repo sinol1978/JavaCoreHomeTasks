@@ -1,4 +1,4 @@
-package lesson04.Task2_MinAbs;
+package lesson04.task02minabs;
 
 /**
  * Создать программу, которая будет выводить на экран меньшее по модулю

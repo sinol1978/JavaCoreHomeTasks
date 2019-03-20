@@ -1,4 +1,4 @@
-package lesson05.Task16_ArrayBubbleSortMod;
+package lesson05.task16arraybubblesortmod;
 
 import java.util.Arrays;
 
