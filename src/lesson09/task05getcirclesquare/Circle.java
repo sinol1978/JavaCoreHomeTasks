@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Circle {
     private double radius;
-    private final double PI = 3.1415926;
+    public static final double PI = 3.1415926;
     private double square;
     private double circuit;
 
