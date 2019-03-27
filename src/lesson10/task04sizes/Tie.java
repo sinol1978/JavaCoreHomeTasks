@@ -19,5 +19,4 @@ public class Tie extends Clothing implements MensClothing {
         return "Color: " + this.getColor() + "   Size: " + this.getSize() +
                 " (" + this.getSize().getDescription() + ")   " + this.getPrice() + "$";
     }
-
 }
