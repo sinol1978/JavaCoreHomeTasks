@@ -1,13 +1,28 @@
 package lesson12.task04;
 
-/**
- * Напишите метод, заменяющий в строке каждое второе вхождение «object-oriented programming» (не учитываем регистр символов) на «OOP».
- * Например строка "Object-oriented programming is a programming language model organized
- * around objects rather than "actions" and data rather than logic. Object-oriented programming blabla.
- * Object-oriented programming bla."
- * должна быть преобразована в "Object-oriented programming is a programming language model organized
- * around objects rather than "actions" and data rather than logic. OOP blabla. Object-oriented programming bla."
- */
-public class Main {
+import java.util.Scanner;
 
+/**
+ * Даны строки разной длины (длина - четное число),
+ * необходимо вернуть ее два средних знака: "string" → "ri", "code" → "od", "Practice"→"ct".
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            System.out.println("Enter the string: ");
+            String str = sc.nextLine();
+            System.out.print(getMiddle(str) + "\n");
+        }
+    }
+
+    private static String getMiddle(String str) {
+        if (str.length() % 2 != 0) {
+            return "The string length is not an even";
+        }
+        return str.substring(str.length() / 2 - 1, str.length() / 2 + 1);
+    }
 }
+
+
