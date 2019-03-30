@@ -11,11 +11,11 @@ package lesson12.task03;
 
 public class Main {
     public static void main(String[] args) {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Object-oriented programming is a programming language model organized around objects rather than \"actions\" and data rather than logic. Object-oriented programming blabla. Object-oriented programming bla.");
-        System.out.println(stringBuilder);
+        String string = "Object-oriented programming is a programming language model organized around objects rather than \"actions\" and data rather than logic. Object-oriented programming blabla. Object-oriented programming bla.";
+        System.out.println(string);
         System.out.println("\n");
-        System.out.println(reverseOOP(stringBuilder));
+        System.out.println(reverseOOP(string));
+
     }
 
     private static StringBuilder reverseOOP(StringBuilder stringBuilder) {
@@ -25,8 +25,8 @@ public class Main {
 
     private static String reverseOOP(String string) {
 
+        return string.replace("Object-oriented programming", "OOP");
 
-        return string;
     }
 
 }
