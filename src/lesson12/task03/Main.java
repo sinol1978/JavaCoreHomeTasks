@@ -24,9 +24,8 @@ public class Main {
     }
 
     private static String reverseOOP(String string) {
-
-        return string.replace("Object-oriented programming", "OOP");
-
+        String sbstr = string.substring(string.indexOf("Object-oriented programming"));
+        return string.replace(sbstr, "OOP");
     }
 
 }
