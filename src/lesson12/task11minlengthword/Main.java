@@ -1,7 +1,6 @@
 package lesson12.task11minlengthword;
 
 import java.util.Arrays;
-import java.util.regex.Pattern;
 
 /**
  * Найти слово, в котором число различных символов минимально.
