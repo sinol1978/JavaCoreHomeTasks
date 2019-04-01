@@ -10,14 +10,12 @@ public class Main {
     }
 
     public static void findWords(String string) {
-        Pattern pattern = Pattern.compile("\\d+\\s");
+        Pattern pattern = Pattern.compile("\\d+");
         Matcher matcher = pattern.matcher(string);
         while (matcher.find()) {
-            //if(matcher.group().equals((new StringBuilder(matcher.group()).reverse()).toString())){
-            if (matcher.group().compareToIgnoreCase(new StringBuilder(matcher.group()).reverse().toString()) == 0) {
+            if (matcher.group().equalsIgnoreCase((new StringBuilder(matcher.group()).reverse()).toString())) {
                 System.out.println(matcher.group());
             }
-            //}
         }
     }
 }
