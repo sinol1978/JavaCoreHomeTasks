@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        findMin("fffff ab f 1234 jkjk");
+        findMin("fffff ab f 1234 kjjj jkjk");
 
     }
 
@@ -19,13 +19,15 @@ public class Main {
         String[] words = string.split("\\W+");
         for (String item : words) {
             int count = 0;
-            for(int i = 0; i < item.length(); i++){
-                if(item.toCharArray()[i] == item.toCharArray()[i++]){
-                    count++;
+            for (int i = 0; i < item.length(); i++) {
+                for (int j = 0; j < item.length() - 1; j++) {
+                    if (item.toCharArray()[i] == item.toCharArray()[j]) {
+                        count++;
+                        break;
+                    }
                 }
             }
-            System.out.println(count);
+            System.out.println(item + " " + count);
         }
-        System.out.println(Arrays.toString(words));
     }
 }
