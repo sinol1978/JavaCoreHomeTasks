@@ -7,26 +7,23 @@ public class ClothingStudio implements LadiesClothing, MensClothing {
 
     @Override
     public void putLadiesClothing() {
-
     }
 
     public void putLadiesClothing(Clothing[] clothing) {
-        for(Clothing item : clothing){
-            if(item instanceof Tshirt || item instanceof Pants || item instanceof Skirt){
+        for (Clothing item : clothing) {
+            if (item instanceof Tshirt && !((Tshirt) item).isMale() || item instanceof Pants && !((Pants) item).isMale() || item instanceof Skirt) {
                 System.out.println(item.toString());
             }
         }
     }
 
-
     @Override
     public void putMensClothing() {
-
     }
 
     public void putMensClothing(Clothing[] clothing) {
-        for(Clothing item : clothing){
-            if(item instanceof Tshirt || item instanceof Pants || item instanceof Tie){
+        for (Clothing item : clothing) {
+            if (item instanceof Tshirt && ((Tshirt) item).isMale() || item instanceof Pants && ((Pants) item).isMale() || item instanceof Tie) {
                 System.out.println(item.toString());
             }
         }

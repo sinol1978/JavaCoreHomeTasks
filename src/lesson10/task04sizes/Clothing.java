@@ -1,9 +1,10 @@
 package lesson10.task04sizes;
 
 public abstract class Clothing {
-    Sizes size;
-    double price;
-    String color;
+
+    protected Sizes size;
+    protected double price;
+    protected String color;
 
     public Sizes getSize() {
         return size;
