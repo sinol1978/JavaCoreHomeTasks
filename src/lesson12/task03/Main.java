@@ -18,12 +18,8 @@ public class Main {
 
     }
 
-    private static StringBuilder reverseOOP(StringBuilder stringBuilder) {
-
-        return stringBuilder;
-    }
-
     private static String reverseOOP(String string) {
+
         String sbstr = string.substring(string.indexOf("Object-oriented programming"));
         return string.replace(sbstr, "OOP");
     }
