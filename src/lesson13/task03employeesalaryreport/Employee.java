@@ -1,6 +1,8 @@
 package lesson13.task03employeesalaryreport;
 
+import java.text.NumberFormat;
 import java.time.LocalDate;
+import java.util.Locale;
 import java.util.Objects;
 
 public class Employee {
@@ -43,7 +45,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("Name:%15s\t\tSalary:%10.2f", this.getFullName(), this.getSalary());
+        NumberFormat numberFormat = NumberFormat.getCurrencyInstance(Locale.US);
+        return String.format("%-20s%10s", this.getFullName(), numberFormat.format(this.getSalary()));
     }
 
     @Override
