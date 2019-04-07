@@ -17,7 +17,7 @@ public class Main {
 
     public static void findWords(String string) {
         int count = 0;
-        Pattern pattern = Pattern.compile("[A-za-z]+\\s");
+        Pattern pattern = Pattern.compile("[A-Za-z]+\\s");
         Matcher matcher = pattern.matcher(string);
         while (matcher.find()) {
             count++;

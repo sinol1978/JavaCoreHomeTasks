@@ -1,6 +1,5 @@
 package lesson13.task03employeesalaryreport;
 
-import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
