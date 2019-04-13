@@ -47,7 +47,7 @@ public class MatrixT<T extends Number> {
             MatrixT result = new MatrixT<T>(this.array);
             for (int i = 0; i < this.rows; i++) {
                 for (int j = 0; j < this.columns; j++) {
-                    result.array[i][j] = (double) this.array[i][j] + (double) matrixT.array[i][j];
+//                    result.array[i][j] = (double)this.array[i][j] + (double)matrixT.array[i][j];
                 }
             }
             return result;
@@ -59,7 +59,7 @@ public class MatrixT<T extends Number> {
         MatrixT result = new MatrixT(this.array);
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < this.columns; j++) {
-                result.array[i][j] = (double) this.array[i][j] * (double) n;
+//                result.array[i][j] = (double)this.array[i][j] * (double) n;
             }
         }
         return result;
@@ -71,7 +71,7 @@ public class MatrixT<T extends Number> {
             for (int i = 0; i < this.rows; i++) {
                 for (int j = 0; j < matrixT.columns; j++) {
                     for (int k = 0; k < this.columns; k++) {
-                        result.array[i][j] += (double) this.array[i][k] * (double) matrixT.array[k][j];
+//                        result.array[i][j] += (double)this.array[i][k] * (double)matrixT.array[k][j];
                     }
                 }
             }
