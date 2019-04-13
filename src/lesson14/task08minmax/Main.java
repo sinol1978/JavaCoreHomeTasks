@@ -1,6 +1,4 @@
-package lesson05.task17minmaxarray;
-
-import lesson14.task08minmax.MinMax;
+package lesson14.task08minmax;
 
 public class Main {
     public static void main(String[] args) {
