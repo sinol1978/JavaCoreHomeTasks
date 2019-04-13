@@ -1,6 +1,6 @@
 package lesson04.task04doubleparse;
 
-import lesson07.Task03.Matrix;
+import lesson07.task03matrix.Matrix;
 
 public class MainApp {
     public static void main(String[] args) {

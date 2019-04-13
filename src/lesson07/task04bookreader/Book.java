@@ -1,4 +1,4 @@
-package lesson07.Task04;
+package lesson07.task04bookreader;
 
 public class Book {
     private String name;

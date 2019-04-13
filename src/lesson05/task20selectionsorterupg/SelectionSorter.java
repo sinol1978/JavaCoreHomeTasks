@@ -1,4 +1,4 @@
-package lesson05.Task20_SelectionSorterUpg;
+package lesson05.task20selectionsorterupg;
 
 import java.util.Arrays;
 

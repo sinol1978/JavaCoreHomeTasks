@@ -1,4 +1,4 @@
-package lesson07.Task05;
+package lesson07.task05ascdescnums;
 
 /**
  * Даны два целых числа A и В.

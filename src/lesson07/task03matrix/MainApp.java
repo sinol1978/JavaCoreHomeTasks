@@ -1,4 +1,4 @@
-package lesson07.Task03;
+package lesson07.task03matrix;
 
 public class MainApp {
     public static void main(String[] args) {

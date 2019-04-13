@@ -1,4 +1,4 @@
-package lesson07.Task02;
+package lesson07.task02person;
 
 public class Person {
 

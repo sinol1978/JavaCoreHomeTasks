@@ -1,7 +1,4 @@
-package lesson07.Task03;
-
-import java.util.Random;
-import java.util.Scanner;
+package lesson07.task03matrix;
 
 /**
  * Создать класс "Матрица". Класс должен иметь следующие поля:

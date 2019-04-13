@@ -1,4 +1,4 @@
-package lesson05.Task_08LightsControlWithSwitch;
+package lesson05.task08lightscontrolwithswitch;
 
 import java.math.BigInteger;
 import java.util.Scanner;

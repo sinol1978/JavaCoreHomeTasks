@@ -1,4 +1,4 @@
-package lesson05.Task_09Factorial;
+package lesson05.task09factorial;
 
 import java.util.Random;
 
