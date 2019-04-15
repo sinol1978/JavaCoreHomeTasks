@@ -42,24 +42,24 @@ public class MatrixT<T extends Number> {
         }
     }
 
-    public MatrixT<T> plusMatrixT(MatrixT<T> matrixT) {
+    public MatrixT<Double> plusMatrixT(MatrixT<T> matrixT) {
         if (this.rows == matrixT.rows && this.columns == matrixT.columns) {
-            MatrixT result = new MatrixT<T>(this.array);
+            MatrixT result = new MatrixT(this.array);
             for (int i = 0; i < this.rows; i++) {
                 for (int j = 0; j < this.columns; j++) {
-//                    result.array[i][j] = (double)this.array[i][j] + (double)matrixT.array[i][j];
+                    result.array[i][j] = this.array[i][j].doubleValue() + matrixT.array[i][j].doubleValue();
                 }
             }
             return result;
         }
-        return new MatrixT<T>(this.array);
+        return new MatrixT(this.array);
     }
 
-    public MatrixT multNumber(int n) {
+    public MatrixT<Double> multNumber(int n) {
         MatrixT result = new MatrixT(this.array);
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < this.columns; j++) {
-//                result.array[i][j] = (double)this.array[i][j] * (double) n;
+                result.array[i][j] = this.array[i][j].doubleValue() * n;
             }
         }
         return result;
@@ -67,16 +67,16 @@ public class MatrixT<T extends Number> {
 
     public MatrixT multMatrixT(MatrixT matrixT) {
         if (this.rows == matrixT.rows && this.columns == matrixT.columns) {
-            MatrixT result = new MatrixT(matrixT.array);
+            MatrixT<Double> result = new MatrixT(matrixT.array);
             for (int i = 0; i < this.rows; i++) {
                 for (int j = 0; j < matrixT.columns; j++) {
                     for (int k = 0; k < this.columns; k++) {
-//                        result.array[i][j] += (double)this.array[i][k] * (double)matrixT.array[k][j];
+                        result.array[i][j] += this.array[i][k].doubleValue() * matrixT.array[k][j].doubleValue();
                     }
                 }
             }
             return result;
         }
-        return new MatrixT<T>(this.array);
+        return new MatrixT(this.array);
     }
 }
