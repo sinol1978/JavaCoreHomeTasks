@@ -3,7 +3,6 @@ package lesson16.task06heavyboxqueue.lesson16.task09students;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class StudentMain {
@@ -19,6 +18,8 @@ public class StudentMain {
         students.add(student3);
         students.add(student4);
         students.add(student5);
+        printStudentLambda(students, 3);
+        System.out.println("------------");
         printStudents(students, 3);
         System.out.println("------------");
         List<Student> goodStudents = deleteBadStudents(students);
@@ -45,5 +46,11 @@ public class StudentMain {
                 System.out.println(item);
             }
         }
+    }
+
+    private static void printStudentLambda(List<Student> students, int course) {
+        Predicate<Student> predicate = s -> s.getCourse() == course;
+
+
     }
 }
