@@ -3,7 +3,10 @@ package lesson16.task06heavyboxqueue.lesson16.task09students;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class StudentMain {
     public static void main(String[] args) {
@@ -19,9 +22,9 @@ public class StudentMain {
         students.add(student4);
         students.add(student5);
         printStudentLambda(students, 3);
-        System.out.println("------------");
+        System.out.println("------------------------------------------------------------");
         printStudents(students, 3);
-        System.out.println("------------");
+        System.out.println("------------------------------------------------------------");
         List<Student> goodStudents = deleteBadStudents(students);
         goodStudents.forEach(System.out::println);
     }
@@ -49,8 +52,8 @@ public class StudentMain {
     }
 
     private static void printStudentLambda(List<Student> students, int course) {
-        Predicate<Student> predicate = s -> s.getCourse() == course;
-
+        List<Student> result = students.stream().filter(s -> s.getCourse() == course).collect(Collectors.toList());
+        result.forEach(System.out::println);
 
     }
 }

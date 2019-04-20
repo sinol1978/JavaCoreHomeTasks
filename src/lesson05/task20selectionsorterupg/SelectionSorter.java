@@ -2,11 +2,6 @@ package lesson05.task20selectionsorterupg;
 
 import java.util.Arrays;
 
-/**
- * Изменить сортировку выбором - исключите обмен значений,
- * если найденный минимальный элемент уже находится на своем месте.
- */
-
 public class SelectionSorter {
     public static void sort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {    // i - номер текущего шага

@@ -3,12 +3,6 @@ package lesson13.task03employeesalaryreport;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/**
- * Добавить переменную LocalDate salaryDate в класс Employee из предыдущего урока.
- * Создать класс FullReport, который выводит ту же информацию, что и Report из предыдущего урока, и добавляет дату выдачи зарплаты.
- * Использовать класс NumberFormat. Заголовок отчета должен изменяться в зависимости от выбранной локали (используем класс ResourceBundle).
- */
-
 public class Main {
     public static void main(String[] args) {
         Employee[] employees = {
