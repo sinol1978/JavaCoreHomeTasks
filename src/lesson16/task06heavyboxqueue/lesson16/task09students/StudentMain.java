@@ -54,6 +54,5 @@ public class StudentMain {
     private static void printStudentLambda(List<Student> students, int course) {
         List<Student> result = students.stream().filter(s -> s.getCourse() == course).collect(Collectors.toList());
         result.forEach(System.out::println);
-
     }
 }
