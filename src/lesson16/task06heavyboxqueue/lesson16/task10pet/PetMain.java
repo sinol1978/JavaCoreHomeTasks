@@ -1,6 +1,7 @@
 package lesson16.task06heavyboxqueue.lesson16.task10pet;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class PetMain {
@@ -11,7 +12,7 @@ public class PetMain {
         Pet dog2 = new Dog("Butch", "Bulldog", "Middle");
         Pet parrot1 = new Parrot("Birdy", "Green", 5);
         Pet parrot2 = new Parrot("Pirate", "Grey & Yellow", 3);
-        Map<String, Pet> pets = new HashMap<>();
+        Map<String, Pet> pets = new LinkedHashMap<>();
         pets.put(cat1.getName(), cat1);
         pets.put(cat2.getName(), cat2);
         pets.put(dog1.getName(), dog1);
