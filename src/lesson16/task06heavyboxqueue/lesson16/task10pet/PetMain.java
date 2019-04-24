@@ -1,6 +1,5 @@
 package lesson16.task06heavyboxqueue.lesson16.task10pet;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
