@@ -2,14 +2,14 @@ package lesson16.task06heavyboxqueue.lesson16.task10pet;
 
 import java.util.Objects;
 
-public class Cat extends Pet {
+public class Parrot extends Pet {
     private String color;
-    private double weight;
+    private int age;
 
-    public Cat(String name, String color, double weight) {
+    public Parrot(String name, String color, int age) {
         super(name);
         this.color = color;
-        this.weight = weight;
+        this.age = age;
     }
 
     public String getColor() {
@@ -20,19 +20,19 @@ public class Cat extends Pet {
         this.color = color;
     }
 
-    public double getWeight() {
-        return weight;
+    public int getAge() {
+        return age;
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Parrot{" +
                 "color='" + color + '\'' +
-                ", weight=" + weight +
+                ", age=" + age +
                 ", name='" + name + '\'' +
                 '}';
     }
@@ -41,13 +41,13 @@ public class Cat extends Pet {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Cat cat = (Cat) o;
-        return Double.compare(cat.weight, weight) == 0 &&
-                Objects.equals(color, cat.color);
+        Parrot parrot = (Parrot) o;
+        return age == parrot.age &&
+                Objects.equals(color, parrot.color);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(color, weight);
+        return Objects.hash(color, age);
     }
 }
