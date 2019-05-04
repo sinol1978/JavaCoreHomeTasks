@@ -1,0 +1,84 @@
+package production.mystore;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Product product1 = new Product(0, "Comics book", 10.5, 5);
+        Product product2 = new Product(1, "Magazine", 1.2, 3);
+        Product product3 = new Product(2, "Canon", 300.5, 5);
+        Product product4 = new Product(3, "Nikon", 150.5, 4);
+        Product product5 = new Product(4, "Scott", 730.5, 3);
+        Product product6 = new Product(5, "Cannondale", 900.5, 5);
+        Product product7 = new Product(6, "Shwinn", 870.5, 4);
+
+        Category cat1 = new Category(0, "Cameras");
+        Category cat2 = new Category(1, "Books");
+        Category cat3 = new Category(2, "Bikes");
+        Category[] categories = {cat1, cat2, cat3};
+
+        cat1.addProduct(product3);
+        cat1.addProduct(product4);
+        cat2.addProduct(product1);
+        cat2.addProduct(product2);
+        cat3.addProduct(product5);
+        cat3.addProduct(product6);
+        cat3.addProduct(product7);
+
+        Map<String, User> users = new HashMap<>();
+        User user1 = new User("user1@gmail.com", "password1");
+        User user2 = new User("user2@ukr.net", "password2");
+        User user3 = new User("user3@mail.ua", "password3");
+        users.put(user1.getLogin(), user1);
+        users.put(user2.getLogin(), user2);
+        users.put(user3.getLogin(), user3);
+        User user = new User();
+        while (true) {
+            System.out.println("1. Registration\t2. Log In\t3. Categories\t4. Add To Cart\t5. Confirm Order\t6. Exit");
+            Scanner scanner = new Scanner(System.in);
+            Action action = Action.values()[Integer.parseInt(scanner.nextLine()) - 1];
+            switch (action) {
+                case REGISTRATION:
+                    System.out.println("Registration:");
+                    User tempUser1 = NavigationHelper.getAuth();
+                    if (NavigationHelper.verify(tempUser1.getLogin(), tempUser1.getPassword())) {
+                        if (users.keySet().contains(tempUser1.getLogin())) {
+                            System.out.println("This user already exists!");
+                        } else {
+                            users.put(tempUser1.getLogin(), tempUser1);
+                            System.out.println("Registration completed.");
+                        }
+                        break;
+                    }
+                    break;
+                case LOGIN:
+                    System.out.println("Log in:");
+                    User tempUser2 = NavigationHelper.getAuth();
+                    if (users.keySet().contains(tempUser2.getLogin())) {
+                        System.out.printf("Welcome, %s!\n", tempUser2.getLogin());
+                        user = tempUser2;
+                    } else {
+                        System.out.println("This user doesn't exist!");
+                        System.out.println("Please compete the registration.");
+                    }
+                    break;
+                case CAT_LIST:
+                    NavigationHelper.printCategories(categories);
+                    break;
+                case ADD_TO_CART:
+                    Product product = NavigationHelper.selectProduct(categories);
+                    user.getShoppingCart().addProductToCart(product);
+                    break;
+                case CONFIRM_ORDER:
+                    System.out.println(user.getShoppingCart());
+                    user.getShoppingCart().ñlearCart();
+                    break;
+                case EXIT:
+                    System.exit(0);
+            }
+        }
+
+    }
+}
