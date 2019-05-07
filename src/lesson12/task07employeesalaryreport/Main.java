@@ -11,5 +11,6 @@ public class Main {
                 new Employee("Chris Paul", 6500.1)
         };
         Report.generateSalaryReport(employees);
+        Report.saveSalaryReport(employees);
     }
 }
