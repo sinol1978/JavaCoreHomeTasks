@@ -14,8 +14,6 @@ public class FileInputOutputStreamDemo {
             for (char i : symbols) {
                 output.write(i);
             }
-
-            int size = input.available();
             for (byte i : input.readAllBytes()) {
                 System.out.println((char) i + " ");
             }
