@@ -2,19 +2,19 @@ package production.mystore;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.*;
 
-public class ShoppingCart {
+public class ShoppingCart implements Serializable {
     private List<Product> productsInCart;
     private LocalDateTime date;
-
-    private ResourceBundle rb = ResourceBundle.getBundle("cart", new Locale("en", "EN"));
-    //private ResourceBundle rb = ResourceBundle.getBundle("cart", new Locale ("ua", "UA"));
+    private transient ResourceBundle rb;
 
     public ShoppingCart() {
         this.productsInCart = new ArrayList<>();
         date = LocalDateTime.now();
+        rb = ResourceBundle.getBundle("cart", new Locale("en", "EN"));
     }
 
     public List<Product> getProductsInCart() {

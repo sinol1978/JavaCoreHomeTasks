@@ -1,5 +1,8 @@
 package production.mystore;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.Objects;
 
 public class User {
@@ -34,6 +37,15 @@ public class User {
 
     public ShoppingCart getShoppingCart() {
         return shoppingCart;
+    }
+
+    public void saveUserShoppingCart() {
+        String path = String.format("src/production/mystore/%s_shoppingcart.ser", this.getLogin());
+        try (ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(path))) {
+            os.writeObject(this.shoppingCart);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     @Override
