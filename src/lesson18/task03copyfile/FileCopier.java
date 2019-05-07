@@ -1,9 +1,6 @@
 package lesson18.task03copyfile;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 public class FileCopier {
     public static void main(String[] args) {
@@ -11,10 +8,12 @@ public class FileCopier {
     }
 
     private static boolean copyFile(String path1, String path2) {
-        try (InputStream input = new FileInputStream(path1);
-             OutputStream output = new FileOutputStream(path2)) {
-            for (byte i : input.readAllBytes()) {
-                output.write(i);
+        try (BufferedReader br = new BufferedReader(new FileReader("a.txt"));
+             BufferedWriter bw = new BufferedWriter(new FileWriter("a1.txt"))) {
+            String str;
+            while ((str = br.readLine()) != null) {
+                bw.write(str);
+                bw.newLine();
             }
             return true;
         } catch (Exception e) {
