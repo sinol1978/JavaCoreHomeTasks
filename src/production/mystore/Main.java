@@ -73,6 +73,7 @@ public class Main {
                     break;
                 case CONFIRM_ORDER:
                     System.out.println(user.getShoppingCart());
+                    user.getShoppingCart().saveCart();
                     user.getShoppingCart().ñlearCart();
                     break;
                 case EXIT:

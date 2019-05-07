@@ -1,5 +1,7 @@
 package production.mystore;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.time.LocalDateTime;
 import java.util.*;
 
@@ -50,6 +52,35 @@ public class ShoppingCart {
 
     public void ñlearCart() {
         productsInCart.clear();
+    }
+
+    public void saveCart() {
+        if (!productsInCart.isEmpty()) {
+            try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/production/mystore/shopping cart.txt"))) {
+                bufferedWriter.write(getDate().getDayOfMonth() + " - " + getDate().getMonth() + " - " + getDate().getYear());
+                bufferedWriter.newLine();
+                double total = 0.0;
+                for (Product item : productsInCart) {
+                    total += item.getPrice();
+                }
+                int i = 0;
+                bufferedWriter.write(String.format("%-1s %-20s%10s%11s", rb.getString("number"), rb.getString("name"), rb.getString("price"), rb.getString("rating")));
+                bufferedWriter.newLine();
+                bufferedWriter.write("-----------------------------------------------------------------------------");
+                bufferedWriter.newLine();
+                for (Product item : productsInCart) {
+                    bufferedWriter.write(String.format("%-1s. %s", ++i, item));
+                    bufferedWriter.newLine();
+                }
+                bufferedWriter.write("-----------------------------------------------------------------------------");
+                bufferedWriter.newLine();
+                bufferedWriter.write(String.format("%s: %s %s.\t%s: %7.2f$", rb.getString("scart"), this.productsInCart.size(), rb.getString("pcs"), rb.getString("total"), total));
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        } else {
+            System.out.println("Shopping cart is empty.");
+        }
     }
 
     @Override
