@@ -2,12 +2,6 @@ package lesson04.task01evenorodd;
 
 import java.util.Scanner;
 
-/**
- * Создать программу, которая будет сообщать, является ли целое число,
- * введённое пользователем, чётным или нечётным.
- * Если пользователь введёт не целое число, то сообщать ему об ошибке.
- */
-
 public class EvenOrOddConsoleTest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

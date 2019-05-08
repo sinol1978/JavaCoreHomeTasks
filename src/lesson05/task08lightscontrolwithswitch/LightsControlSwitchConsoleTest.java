@@ -3,9 +3,6 @@ package lesson05.task08lightscontrolwithswitch;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-/**
- * Переписать гирлянду используя оператор switch для  выбора нужной операции.
- */
 
 public class LightsControlSwitchConsoleTest {
     public static void main(String[] args) {

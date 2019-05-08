@@ -3,10 +3,6 @@ package lesson16.task06heavyboxqueue;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-/**
- * Создать очередь, содержащую объекты класса HeavyBox. Используем класс ArrayDeque.
- * Поместить объекты в очередь с помощью метода offer(). Удалить объекты методом poll().
- */
 
 public class HeavyBoxMain {
     public static void main(String[] args) {

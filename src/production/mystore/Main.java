@@ -75,7 +75,7 @@ public class Main {
                     System.out.println(user.getShoppingCart());
                     user.getShoppingCart().saveCart();
                     user.saveUserShoppingCart();
-                    user.getShoppingCart().ñlearCart();
+                    user.getShoppingCart().clearCart();
                     break;
                 case EXIT:
                     System.exit(0);

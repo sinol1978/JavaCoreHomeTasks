@@ -50,7 +50,7 @@ public class ShoppingCart implements Serializable {
         }
     }
 
-    public void ñlearCart() {
+    public void clearCart() {
         productsInCart.clear();
     }
 

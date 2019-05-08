@@ -2,11 +2,6 @@ package lesson14.task08minmax;
 
 import java.lang.reflect.Array;
 
-/**
- * Написать обобщенный класс MinMax, который содержит методы для нахождения минимального и максимального элемента массива.
- * Массив является переменной класса. Массив должен передаваться в класс через конструктор.
- */
-
 public class MinMax<T extends Number & Comparable> {
     private T[] array;
 

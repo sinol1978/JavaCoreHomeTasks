@@ -2,12 +2,6 @@ package lesson14.task05cookable;
 
 import java.util.function.Consumer;
 
-/**
- * —оздать интерфейс Cookable, содержащий метод void cook().
- * —оздать класс Food, содержащий метод public void prepare(Cookable c) { c.cook(); }
- * —оздать экземпл€р класса Food и вызвать его метод prepare().
- * Ќа вход метода prepare() передать экземпл€р анонимного класса, расшир€ющего интерфейс Cookable.
- */
 
 public class Main {
     public static void main(String[] args) {

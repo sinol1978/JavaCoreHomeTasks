@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44bac1ad-e83b-4273-a66d-22cb1af454ca" name="Default Changelist" comment="minmax main">
-      <change afterPath="$PROJECT_DIR$/cart_ua_UA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cart.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cart_en_EN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cart_ru_RU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/LoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/NavigationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/PasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/production/mystore/User.java" afterDir="false" />
+    <list default="true" id="44bac1ad-e83b-4273-a66d-22cb1af454ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson04/task01evenorodd/EvenOrOddConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson04/task01evenorodd/EvenOrOddConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson04/task02minabs/MinAbsConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson04/task02minabs/MinAbsConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson04/task04doubleparse/DoubleParseConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson04/task04doubleparse/DoubleParseConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson05/task08lightscontrolwithswitch/LightsControlSwitchConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson05/task08lightscontrolwithswitch/LightsControlSwitchConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson14/task05cookable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson14/task05cookable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/lesson16/task05union/UnionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/lesson16/task05union/UnionMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/production/mystore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/production/mystore/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/production/mystore/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/production/mystore/ShoppingCart.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -32,70 +30,93 @@
     <favorites_list name="JavaCoreHomeTasks" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/production/mystore/PasswordException.java">
+        <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Cookable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/production/mystore/User.java">
+        <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding>
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1357#1358#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson04/task01evenorodd/EvenOrOddConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson04/task02minabs/MinAbsConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson04/task03lightscontrol/LightsControlConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson04/task04doubleparse/DoubleParseConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson04/task04doubleparse/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson05/task08lightscontrolwithswitch/LightsControlSwitchConsoleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/production/mystore/ShoppingCart.java">
+        <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#1679#1680#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="method#equals#0;class#ShoppingCart#0" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/production/mystore/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -140,12 +161,10 @@
         <option value="$PROJECT_DIR$/src/lesson14/task02userlocaleclass/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson14/task02userlocaleclass/User.java" />
         <option value="$PROJECT_DIR$/src/lesson14/task05cookable/Food.java" />
-        <option value="$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java" />
         <option value="$PROJECT_DIR$/src/lesson05/task17minmaxarray/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson14/task08minmax/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson14/task07matrixt/MatrixT.java" />
         <option value="$PROJECT_DIR$/src/lesson14/task05cookable/Cookable.java" />
-        <option value="$PROJECT_DIR$/src/lesson14/task05cookable/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/Box.java" />
         <option value="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/HeavyBox.java" />
         <option value="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/HeavyBoxMain.java" />
@@ -160,19 +179,33 @@
         <option value="$PROJECT_DIR$/src/production/mystore/PasswordException.java" />
         <option value="$PROJECT_DIR$/src/production/mystore/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/src/production/mystore/User.java" />
-        <option value="$PROJECT_DIR$/src/production/mystore/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/production/mystore/Main.java" />
         <option value="$PROJECT_DIR$/cart.properties" />
         <option value="$PROJECT_DIR$/cart_en_EN.properties" />
         <option value="$PROJECT_DIR$/cart_ru_RU.properties" />
         <option value="$PROJECT_DIR$/cart_ua_UA.properties" />
+        <option value="$PROJECT_DIR$/src/lesson18/task02fileiodemo/FileInputOutputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/lesson08/task05animals/Cat.java" />
+        <option value="$PROJECT_DIR$/src/lesson08/task05animals/Dog.java" />
+        <option value="$PROJECT_DIR$/src/lesson08/task05animals/Animal.java" />
+        <option value="$PROJECT_DIR$/src/lesson08/task05animals/Main.java" />
+        <option value="$PROJECT_DIR$/src/lesson08/task05animals/Horse.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/lesson16/task05union/UnionMain.java" />
+        <option value="$PROJECT_DIR$/src/production/mystore/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/production/mystore/Main.java" />
+        <option value="$PROJECT_DIR$/src/lesson14/task05cookable/Main.java" />
+        <option value="$PROJECT_DIR$/src/lesson04/task01evenorodd/EvenOrOddConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/lesson04/task02minabs/MinAbsConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/lesson04/task04doubleparse/DoubleParseConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/lesson05/task08lightscontrolwithswitch/LightsControlSwitchConsoleTest.java" />
+        <option value="$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="6" />
-    <option name="width" value="1227" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -183,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,10 +234,96 @@
               <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+              <item name="task01evenorodd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+              <item name="task02minabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+              <item name="task03lightscontrol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson04" type="462c0819:PsiDirectoryNode" />
+              <item name="task04doubleparse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson05" type="462c0819:PsiDirectoryNode" />
+              <item name="task08lightscontrolwithswitch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson14" type="462c0819:PsiDirectoryNode" />
+              <item name="task08minmax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson18" type="462c0819:PsiDirectoryNode" />
+              <item name="task02fileiodemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCoreHomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCoreHomeTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mystore" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +332,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -236,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HeavyBoxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson16.task06heavyboxqueue.HeavyBoxMain" />
       <module name="JavaCoreHomeTasks" />
@@ -263,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.task02userlocaleclass.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14.task05cookable.Main" />
       <module name="JavaCoreHomeTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.task02userlocaleclass.*" />
+          <option name="PATTERN" value="lesson14.task05cookable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,11 +395,13 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.task05cookable.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="lesson08.task05animals.Main" />
       <module name="JavaCoreHomeTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.task05cookable.*" />
+          <option name="PATTERN" value="lesson08.task05animals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,11 +437,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.StudentMain" />
         <item itemvalue="Application.HeavyBoxMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -448,26 +568,26 @@
       <option name="project" value="LOCAL" />
       <updated>1556001723204</updated>
     </task>
-    <task id="LOCAL-00017" summary="add lesson08 task started">
-      <created>1552909902963</created>
+    <task id="LOCAL-00017" summary="mystore">
+      <created>1556966702496</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1552909902963</updated>
+      <updated>1556966702497</updated>
     </task>
-    <task id="LOCAL-00018" summary="add lesson08 task3 finished">
-      <created>1552929657091</created>
+    <task id="LOCAL-00018" summary="animals">
+      <created>1557298948782</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1552929657091</updated>
+      <updated>1557298948782</updated>
     </task>
-    <task id="LOCAL-00019" summary="add lesson08 task4 started">
-      <created>1552932579543</created>
+    <task id="LOCAL-00019" summary="animals">
+      <created>1557332786413</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1552932579543</updated>
+      <updated>1557332786413</updated>
     </task>
     <task id="LOCAL-00020" summary="lesson09 task02 started11">
       <created>1553101449718</created>
@@ -511,7 +631,7 @@
       <option name="project" value="LOCAL" />
       <updated>1554135379698</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -519,31 +639,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2118003" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="right" id="Designer" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette&#9;" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -564,7 +660,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -607,8 +703,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add lesson07 Task04" />
-    <MESSAGE value="add lesson07 Task04 1" />
     <MESSAGE value="add lesson07 Task05" />
     <MESSAGE value="add lesson07 Task05 1" />
     <MESSAGE value="add lesson07 finished" />
@@ -632,79 +726,12 @@
     <MESSAGE value="lesson16" />
     <MESSAGE value="predicate" />
     <MESSAGE value="minmax main" />
-    <option name="LAST_COMMIT_MESSAGE" value="minmax main" />
+    <MESSAGE value="mystore" />
+    <MESSAGE value="animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="animals" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson12/task11minlengthword/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson12/task12findlatinwords/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson12/task13findpalindrom/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/caption.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/caption_ru_RU.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/FullReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/task05metainfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/task04holidays/HolidaysMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson13/task03employeesalaryreport/task04holidays/Holiday.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -757,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson14/task07matrixt/MatrixT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -771,13 +791,6 @@
           <folding>
             <marker date="1555345285714" expanded="true" signature="2056:2169" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -801,20 +814,6 @@
             <element signature="e#1547#1548#0" expanded="true" />
             <element signature="e#1600#1601#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Cookable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -905,37 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/mystore/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/production/mystore/LoginException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -968,17 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/mystore/PasswordException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/production/mystore/NavigationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -987,27 +944,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1594#1595#0" expanded="true" />
             <element signature="e#1624#1625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/mystore/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1049,30 +985,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/production/mystore/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/production/mystore/PasswordException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson08/task05animals/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson08/task05animals/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/mystore/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson18/task02fileiodemo/FileInputOutputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson18/task03copyfile/FileCopier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson12/task07employeesalaryreport/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson12/task07employeesalaryreport/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/mystore/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson08/task05animals/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson08/task05animals/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson16/task06heavyboxqueue/lesson16/task05union/UnionMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/production/mystore/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="method#saveCart#0;class#ShoppingCart#0" />
+            <element signature="method#equals#0;class#ShoppingCart#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson08/task05animals/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/production/mystore/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Cookable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson14/task05cookable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson04/task01evenorodd/EvenOrOddConsoleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="method#equals#0;class#ShoppingCart#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson04/task02minabs/MinAbsConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson04/task03lightscontrol/LightsControlConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson04/task04doubleparse/DoubleParseConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson04/task04doubleparse/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson05/task08lightscontrolwithswitch/LightsControlSwitchConsoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/MinMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson14/task08minmax/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
