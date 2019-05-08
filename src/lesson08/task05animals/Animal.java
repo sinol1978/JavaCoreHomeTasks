@@ -1,6 +1,8 @@
 package lesson08.task05animals;
 
-public abstract class Animal {
+import java.io.Serializable;
+
+public abstract class Animal implements Serializable {
     private String food;
     private String location;
 
@@ -35,4 +37,6 @@ public abstract class Animal {
     public void sleep() {
         System.out.println("Animal is sleeping!");
     }
+
+    public abstract void save();
 }

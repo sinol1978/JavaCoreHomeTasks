@@ -11,5 +11,9 @@ public class Main {
         for (Animal item : animals) {
             Vet.treatAnimal(item);
         }
+        Animal horse1 = new Horse("Hay", "Oakland", "Bucephalos", "black");
+        horse1.save();
+        Animal horse2 = Horse.load();
+        System.out.println(horse2);
     }
 }

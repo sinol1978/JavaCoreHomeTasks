@@ -1,6 +1,8 @@
 package lesson08.task05animals;
 
-public class Horse extends Animal {
+import java.io.*;
+
+public class Horse extends Animal implements Serializable {
     private String name;
     private String color;
 
@@ -37,5 +39,40 @@ public class Horse extends Animal {
     @Override
     public void eat() {
         System.out.println(this.getName() + "is eating the horse food.");
+    }
+
+    public void save() {
+        String path = "src/lesson08/task05animals/horse.ser";
+        try (ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(path))) {
+            os.writeObject(this);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public static Horse load() {
+        String path = "src/lesson08/task05animals/horse.ser";
+        try (ObjectInputStream os = new ObjectInputStream(new FileInputStream(path))) {
+            Horse horse = (Horse) os.readObject();
+            return horse;
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println(e.getMessage());
+            return null;
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Horse %s, color: %s, location: %s, food: %s", name, color, super.getLocation(), super.getFood());
     }
 }

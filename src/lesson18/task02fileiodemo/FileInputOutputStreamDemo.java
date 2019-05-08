@@ -14,9 +14,6 @@ public class FileInputOutputStreamDemo {
             for (char i : symbols) {
                 output.write(i);
             }
-            for (byte i : input.readAllBytes()) {
-                System.out.println((char) i + " ");
-            }
         } catch (IOException e) {
             System.out.println("Exception:\n" + e.getMessage());
         }

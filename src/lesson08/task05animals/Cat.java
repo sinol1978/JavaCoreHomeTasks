@@ -40,4 +40,9 @@ public class Cat extends Animal {
     public void eat() {
         System.out.println(this.getName() + "is eating the cat food.");
     }
+
+    @Override
+    public void save() {
+
+    }
 }
