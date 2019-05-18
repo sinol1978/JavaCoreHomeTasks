@@ -8,26 +8,26 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Product product1 = new Product(0, "Comics book", 10.5, 5);
-        Product product2 = new Product(1, "Magazine", 1.2, 3);
-        Product product3 = new Product(2, "Canon", 300.5, 5);
-        Product product4 = new Product(3, "Nikon", 150.5, 4);
-        Product product5 = new Product(4, "Scott", 730.5, 3);
-        Product product6 = new Product(5, "Cannondale", 900.5, 5);
-        Product product7 = new Product(6, "Shwinn", 870.5, 4);
+//        Product product1 = new Product(0, "Comics book", 10.5, 5);
+//        Product product2 = new Product(1, "Magazine", 1.2, 3);
+//        Product product3 = new Product(2, "Canon", 300.5, 5);
+//        Product product4 = new Product(3, "Nikon", 150.5, 4);
+//        Product product5 = new Product(4, "Scott", 730.5, 3);
+//        Product product6 = new Product(5, "Cannondale", 900.5, 5);
+//        Product product7 = new Product(6, "Shwinn", 870.5, 4);
 
         Category cat1 = new Category(0, "Cameras");
         Category cat2 = new Category(1, "Books");
         Category cat3 = new Category(2, "Bikes");
         Category[] categories = {cat1, cat2, cat3};
 
-        cat1.addProduct(product3);
-        cat1.addProduct(product4);
-        cat2.addProduct(product1);
-        cat2.addProduct(product2);
-        cat3.addProduct(product5);
-        cat3.addProduct(product6);
-        cat3.addProduct(product7);
+//        cat1.addProduct(product3);
+//        cat1.addProduct(product4);
+//        cat2.addProduct(product1);
+//        cat2.addProduct(product2);
+//        cat3.addProduct(product5);
+//        cat3.addProduct(product6);
+//        cat3.addProduct(product7);
 
         Map<String, User> users = new HashMap<>();
         User user1 = new User("user1@gmail.com", "password1");
