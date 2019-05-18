@@ -1,11 +1,13 @@
 package production.mystore;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Product product1 = new Product(0, "Comics book", 10.5, 5);
         Product product2 = new Product(1, "Magazine", 1.2, 3);
         Product product3 = new Product(2, "Canon", 300.5, 5);
