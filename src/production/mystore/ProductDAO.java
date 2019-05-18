@@ -9,8 +9,9 @@ import static production.mystore.ConnectionData.*;
 public class ProductDAO extends AbstractDAO<Integer, Product> {
     public static final String SQL_SELECT_PRODUCT = "SELECT * FROM products";
     public static final String SQL_INSERT_PRODUCT = "INSERT INTO products (name, price, rating, category_id) VALUES";
-    public static final String SQL_DELETE_PRODUCT = "DELETE FROM products WHERE id=";
-
+    public static final String SQL_DELETE_PRODUCT_BY_ID = "DELETE FROM products WHERE id=";
+    public static final String SQL_DELETE_PRODUCT = "DELETE FROM products";
+    public static final String SQL_UPDATE_PRODUCT = "UPDATE products SET";
 
     @Override
     public List<Product> findAll() {
@@ -57,6 +58,7 @@ public class ProductDAO extends AbstractDAO<Integer, Product> {
         try (Connection connection = DriverManager.getConnection(URL + "?serverTimezone=Europe/Moscow&useSSL=false", USER, PASSWORD);
              PreparedStatement preparedStatement = connection.prepareStatement(SQL_INSERT_PRODUCT + paramProduct)) {
             preparedStatement.executeUpdate();
+            System.out.println(String.format("Product '%s' was inserted into database", entity.getName()));
             return true;
         } catch (SQLException e) {
             System.out.println(e.getMessage());
@@ -67,10 +69,10 @@ public class ProductDAO extends AbstractDAO<Integer, Product> {
     @Override
     protected boolean deleteEntityById(Integer id) {
         try (Connection connection = DriverManager.getConnection(URL + "?serverTimezone=Europe/Moscow&useSSL=false", USER, PASSWORD);
-             PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_PRODUCT + id)) {
+             PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_PRODUCT_BY_ID + id)) {
             preparedStatement.executeUpdate();
+            System.out.println(String.format("Product '%s' was deleted from database", findEntityById(id).getName()));
             return true;
-
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -79,22 +81,30 @@ public class ProductDAO extends AbstractDAO<Integer, Product> {
 
     @Override
     protected boolean deleteEntity(Product entity) {
-        String paramId = String.format(" WHERE name=%s", entity.getName());
+        String paramId = String.format(" WHERE name='%s'", entity.getName());
 
         try (Connection connection = DriverManager.getConnection(URL + "?serverTimezone=Europe/Moscow&useSSL=false", USER, PASSWORD);
-             PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_PRODUCT)) {
+             PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_PRODUCT + paramId)) {
             preparedStatement.executeUpdate();
+            System.out.println(String.format("Product '%s' was deleted from database", entity.getName()));
             return true;
-
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return false;
     }
 
-
     @Override
-    public Product update(Product entity) {
-        return null;
+    public boolean update(Product entity) {
+        String paramProduct = String.format(" price=%s, rating=%s, category_id=%s WHERE name='%s'", entity.getPrice(), entity.getRating(), entity.getCategoryId(), entity.getName());
+        try (Connection connection = DriverManager.getConnection(URL + "?serverTimezone=Europe/Moscow&useSSL=false", USER, PASSWORD);
+             PreparedStatement preparedStatement = connection.prepareStatement(SQL_UPDATE_PRODUCT + paramProduct)) {
+            preparedStatement.executeUpdate();
+            System.out.println(String.format("Product '%s' was updated in database", entity.getName()));
+            return true;
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            return false;
+        }
     }
 }

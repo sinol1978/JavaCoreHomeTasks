@@ -14,5 +14,5 @@ public abstract class AbstractDAO<K extends Number, T> {
 
     protected abstract boolean deleteEntity(T entity);
 
-    public abstract T update(T entity);
+    public abstract boolean update(T entity);
 }
